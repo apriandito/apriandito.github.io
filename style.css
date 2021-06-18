@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Segoe UI";
+    color: black;
+}
+
+main {
+    max-width: 35rem;
+    margin: 3.75rem auto 0 auto;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+img {
+    max-width: 100%;
+}
+
+p{
+    line-height: 100%;
+    color: black;
+}
