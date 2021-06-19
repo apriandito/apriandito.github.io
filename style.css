@@ -12,7 +12,7 @@ main {
 
 h1 {
     margin-bottom: 1px;
-    color: #2e7fdd;
+    color: #1864bb;
 }
 
 img {
@@ -33,12 +33,12 @@ img {
     cursor: pointer;
     background-color: white; 
     color: black; 
-    border: 2px solid #2e7fdd;
+    border: 2px solid #1864bb;
     border-radius: 15px;
   }
 
   .button:hover {
-    background-color: #2e7fdd;
+    background-color: #1864bb;
     color: white;
   }
   
