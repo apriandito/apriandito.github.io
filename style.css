@@ -34,7 +34,7 @@ img {
     background-color: white; 
     color: black; 
     border: 2px solid #2e7fdd;
-    border-radius: 16px;
+    border-radius: 15px;
   }
 
   .button:hover {
