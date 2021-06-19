@@ -1,28 +1,44 @@
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
 body {
     box-sizing: border-box;
     font-family: "Segoe UI";
-    color: black;
+    text-align: center;
+    font-size: 16px;
 }
 
 main {
-    max-width: 35rem;
-    margin: 3.75rem auto 0 auto;
+    max-width: 50%;
+    margin: 0 auto 0 auto;
 }
 
 h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 1px;
+    color: #2e7fdd;
 }
+
 img {
     max-width: 100%;
 }
 
-p{
-    line-height: 100%;
-    color: black;
-}
+.button {
+    border: none;
+    color: white;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Segoe UI";
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #2e7fdd;
+    border-radius: 15px;
+  }
+
+  .button:hover {
+    background-color: #2e7fdd;
+    color: white;
+  }
+  
