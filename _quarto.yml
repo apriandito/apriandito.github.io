@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Apriandito"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Tentang
+      - href: blog.qmd
+        text: Blog
+    right: 
+      - icon: twitter
+        href: https://twitter.com/otidnairpa
+      - icon: github
+        href: https://github.com/apriandito
+
+format:
+  html:
+    theme: Zephyr
+    css: styles.css
+    toc: true
+
+editor: visual
+

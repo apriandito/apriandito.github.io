@@ -1,0 +1,19 @@
+---
+title: "RStudio berubah jadi Posit. Seperti Apa Kedepannya?"
+author: "Muhammad Apriandito"
+date: "8/03/2022"
+categories:
+  - Opini
+---
+
+------------------------------------------------------------------------
+
+Di `rstudio::conf(2022)` kemarin (Yang sayangnya saya tidak bisa ikut). Terdapat pengumuman bahwa RStudio akan berubah nama menjadi Posit. Yup **POSIT**!. Awal-awal ini agak terdengar aneh untuk saya.
+
+Berdasarkan keternagan dari website resmi [Posit](https://posit.co/), *Posit means to put forth an idea for discussion,* atau posit berarti menaruh ide untuk diskusi. Cukup menarik juga artinya.
+
+Alasan mereka berganti nama, adalah karena visi RStudio sudah tidak cocok lagi untuk mereka (Dalam beberapa tahun terakhir, RStudio memang juga mensupport Python). Mereka ingin fokus yang lebih luas dan komunitas yang lebih besar. Mereka sendiri mengakui bahwa mereka kesusahan untuk memasarkan produk mereka, karena stereotype yang melekat bahwa RStudio adalah untuk R, padahal mereka juga mensupport Python. Saya setuju dengan rencana dan visi ini.
+
+Kemudian muncul banyak pertanyaan? Nasib R-Package yang disupport RStudio bagaiamana? Hmm..., saya juga tidak yakin dengan ini. Abang kesayangan kita, bang Wickham sebenarnya sudah menyampaikan bahwa mereka akan terus mensupport R, bahkan dia mengatakan dia tidak akan belajar Python. Sebenarnya, saya takut ini hanya statement agar komunitas tidak panik, tapi semoga ketakutan ini salah. Banyakan saya, package yang ada di R akan tetap dikembangkan, tapi mungkin tidak secepat dan sebaik dahulu. mengingat fokus mereka tidak hanya di R saat ini. Tapi, kita mungkin akan menemukan R-package kesayangan kita akan hadir di bahasa pemrograman lain. Seperti Quarto yang merupakan suksesor R-Markdown yang saat ini sudah tersedia untuk python, julia, dan observable. Shiny juga sudah ada versi Pythonnya (Mungkin saya akan buatkan tulisan mengenai ini). Ya mungkin saja, kedepannya kita akan melihat package Tidyverse di bahasa pemrograman python.
+
+Jujur saja saya sangat penasaran, sekaligus deg-degan bagaiamana ini akan berjalan kedepannya. Mengingat 80% persen pekerjaan saya menggunakan R dan menggunakan produk RStudio. 😐 Ya...., Mari sama-sama kita lihat perkembangan si Posit ini, semoga selalu berkembang ke arah yang lebih baik.

@@ -1,0 +1,13 @@
+---
+title: "Blog"
+listing:
+  filter-ui: [title, date]
+  contents: blog
+  sort: "date desc"
+  type: default
+  categories: true
+---
+
+Sedikit opini atau tutorial dari saya. Beberapa tulisan mungkin akan saya post ulang di website [SocialX](https://socialx.id/).
+
+------------------------------------------------------------------------

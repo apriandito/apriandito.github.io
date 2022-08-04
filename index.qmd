@@ -1,0 +1,18 @@
+---
+title: "Muhammad Apriandito A.S. , M.B.A."
+about:
+  template: jolla
+  image: img/profile.jpg
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/otidnairpa
+    - icon: github
+      text: Github
+      href: https://github.com/apriandito
+    - icon: linkedin
+      text: Linkedin
+      href: https://linkedin.com/in/apriandito
+---
+
+Seorang Entrepreneur, Programmer, Peneliti, dan Dosen, Direktur dari perusahaan riset terbaik di dunia [**SocialX**](https://socialx.id/). Pegiat [**Data Analytics**](https://id.wikipedia.org/wiki/Analisis_data#:~:text=Analisis%20data%20adalah%20proses%20inspeksi,kesimpulan%20dan%20mendukung%20pengambilan%20keputusan.), tapi saat ini sedang fokus belajar tentang teknologi [**Blockchain**](https://id.wikipedia.org/wiki/Rantai_blok).
