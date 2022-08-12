@@ -17,8 +17,8 @@ website:
         href: https://github.com/apriandito
         
   page-footer: 
-    left: "© Copyright Muhammad Apriandito | 2022" 
-    right: "Made with Love and Code"        
+    left: "Made with Love and Code" 
+    right: "© Copyright Muhammad Apriandito | 2022"        
 
 format:
   html:

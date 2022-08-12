@@ -18,7 +18,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Jangan update R dengan cara ini, Lakukan hal ini sebelum menyesal\n\n\n\n\n\n\n\nOpini\n\n\n\n\n\n\n\n\n\n\n\nAug 12, 2022\n\n\nMuhammad Apriandito\n\n\n\n\n\n\n\n\nRStudio berubah jadi Posit. Seperti Apa Kedepannya?\n\n\n\n\n\n\n\nOpini\n\n\n\n\n\n\n\n\n\n\n\nAug 3, 2022\n\n\nMuhammad Apriandito\n\n\n\n\n\n\nNo matching items"
+    "text": "Jangan update R dengan cara ini. Sebaiknya lakukan hal ini sebelum menyesal\n\n\n\n\n\n\n\nOpini\n\n\n\n\n\n\n\n\n\n\n\nAug 12, 2022\n\n\nMuhammad Apriandito\n\n\n\n\n\n\n\n\nRStudio berubah jadi Posit. Seperti Apa Kedepannya?\n\n\n\n\n\n\n\nOpini\n\n\n\n\n\n\n\n\n\n\n\nAug 3, 2022\n\n\nMuhammad Apriandito\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/r-studio-posit.html",
@@ -30,8 +30,8 @@
   {
     "objectID": "blog/jangan-update-r-dengan-cara-ini.html",
     "href": "blog/jangan-update-r-dengan-cara-ini.html",
-    "title": "Jangan update R dengan cara ini, Lakukan hal ini sebelum menyesal",
+    "title": "Jangan update R dengan cara ini. Sebaiknya lakukan hal ini sebelum menyesal",
     "section": "",
-    "text": "Beberapa waktu lalu, R update ke versi 4.2.1 “Funny-Looking Kid”. Lucu sekali namanya. Sebenarnya agak aneh juga buat saya. Saya yang biasanya jarang update R, tiba-tiba tertarik megupdatenya.\nPergilah saya ke CRAN kemudian mendownload R untuk windows, dan langsung saya install tanpa ba-bi-bu. Saya fikir toh update biasa ini.\nSeperti biasa next, next, next, and finish…, saya kira semua berjalan normal. Tapi ternyata tidak, ketika saya buka semua package yang sudah saya install hilang, SEMUANYA..\nSaya heran, apakah kalau update R semua package hilang? saya pun mencoba mencari jawabannya di Internet. dan ternyata banyak kejadian serupa."
+    "text": "Beberapa waktu lalu, R update ke versi 4.2.1 - “Funny-Looking Kid”. Lucu sekali namanya.\nNah entah mengapa, tidak ada angin, tidak ada hujan. Saya yang biasanya jarang update R, tiba-tiba tertarik megupdatenya. Pergilah saya ke CRAN kemudian mendownload R untuk windows, dan langsung saya install tanpa ba-bi-bu. Saya fikir toh update biasa ini. Seperti biasa next, next, next, and finish…, saya kira semua berjalan normal. Tapi ternyata tidak, ketika saya buka semua package yang sudah saya install hilang, kembali ke setelan pabrik.\nSaya pun mencoba mencari jawabannya di Internet. dan ternyata banyak kejadian serupa. Sehabis install, balik ke setelan pabrik.\nSetelah mencari-cari cara agar package tidak hilang, ini adalah salah satu cara yang bisa dilakukan https://www.r-bloggers.com/2015/06/how-to-upgrade-r-without-losing-your-packages/. Semoga kedepannya tidak terjadi kejadian serupa ya."
   }
 ]

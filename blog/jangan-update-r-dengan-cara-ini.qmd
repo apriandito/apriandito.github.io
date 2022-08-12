@@ -8,10 +8,10 @@ categories:
 
 ------------------------------------------------------------------------
 
-Beberapa waktu lalu, R update ke versi 4.2.1 "Funny-Looking Kid". Lucu sekali namanya. Sebenarnya agak aneh juga buat saya. Saya yang biasanya jarang update R, tiba-tiba tertarik megupdatenya.
+Beberapa waktu lalu, R update ke versi 4.2.1 - *"Funny-Looking Kid"*. Lucu sekali namanya.
 
-Pergilah saya ke CRAN kemudian mendownload R untuk windows, dan langsung saya install tanpa ba-bi-bu. Saya fikir toh update biasa ini.
+Nah entah mengapa, tidak ada angin, tidak ada hujan. Saya yang biasanya jarang update R, tiba-tiba tertarik megupdatenya. Pergilah saya ke CRAN kemudian mendownload R untuk windows, dan langsung saya install tanpa ba-bi-bu. Saya fikir toh update biasa ini. Seperti biasa next, next, next, and finish..., saya kira semua berjalan normal. Tapi ternyata tidak, ketika saya buka semua package yang sudah saya install hilang, kembali ke setelan pabrik.
 
-Seperti biasa next, next, next, and finish..., saya kira semua berjalan normal. Tapi ternyata tidak, ketika saya buka semua package yang sudah saya install hilang, SEMUANYA..
+Saya pun mencoba mencari jawabannya di Internet. dan ternyata banyak kejadian serupa. Sehabis install, balik ke setelan pabrik.
 
-Saya heran, apakah kalau update R semua package hilang? saya pun mencoba mencari jawabannya di Internet. dan ternyata banyak kejadian serupa.
+Setelah mencari-cari cara agar package tidak hilang, ini adalah salah satu cara yang bisa dilakukan <https://www.r-bloggers.com/2015/06/how-to-upgrade-r-without-losing-your-packages/>. Semoga kedepannya tidak terjadi kejadian serupa ya.
