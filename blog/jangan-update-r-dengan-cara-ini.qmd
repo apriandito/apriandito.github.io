@@ -1,0 +1,17 @@
+---
+title: "Jangan update R dengan cara ini. Sebaiknya lakukan hal ini sebelum menyesal"
+author: "Muhammad Apriandito"
+date: "8/12/2022"
+categories:
+  - Opini
+---
+
+------------------------------------------------------------------------
+
+Beberapa waktu lalu, R update ke versi 4.2.1 "Funny-Looking Kid". Lucu sekali namanya. Sebenarnya agak aneh juga buat saya. Saya yang biasanya jarang update R, tiba-tiba tertarik megupdatenya.
+
+Pergilah saya ke CRAN kemudian mendownload R untuk windows, dan langsung saya install tanpa ba-bi-bu. Saya fikir toh update biasa ini.
+
+Seperti biasa next, next, next, and finish..., saya kira semua berjalan normal. Tapi ternyata tidak, ketika saya buka semua package yang sudah saya install hilang, SEMUANYA..
+
+Saya heran, apakah kalau update R semua package hilang? saya pun mencoba mencari jawabannya di Internet. dan ternyata banyak kejadian serupa.

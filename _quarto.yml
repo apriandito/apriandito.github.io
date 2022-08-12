@@ -15,6 +15,10 @@ website:
         href: https://twitter.com/otidnairpa
       - icon: github
         href: https://github.com/apriandito
+        
+  page-footer: 
+    left: "© Copyright Muhammad Apriandito | 2022" 
+    right: "Made with Love and Code"        
 
 format:
   html:
