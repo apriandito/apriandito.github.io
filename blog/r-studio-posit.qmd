@@ -12,7 +12,7 @@ Di `rstudio::conf(2022)` kemarin (Yang sayangnya saya tidak bisa ikut). Terdapat
 
 Berdasarkan keternagan dari website resmi [Posit](https://posit.co/), *Posit means to put forth an idea for discussion,* atau posit berarti menaruh ide untuk diskusi. Cukup menarik juga artinya.
 
-Alasan mereka berganti nama, adalah karena visi RStudio sudah tidak cocok lagi untuk mereka (Dalam beberapa tahun terakhir, RStudio memang juga mensupport Python). Mereka (RStudio) ingin fokus yang lebih luas dan komunitas yang lebih besar. Mereka sendiri mengakui bahwa mereka kesusahan untuk memasarkan produk mereka, karena stereotype yang melekat bahwa RStudio adalah untuk R, padahal mereka juga mensupport Python. Overall...., Saya setuju dengan rencana dan visi ini.
+Alasan mereka berganti nama, adalah karena visi RStudio sudah tidak cocok lagi untuk mereka (Dalam beberapa tahun terakhir, RStudio memang juga mensupport Python). Mereka ingin memiliki fokus yang lebih luas dan komunitas yang lebih besar. Mereka sendiri mengakui bahwa mereka kesusahan untuk memasarkan produk mereka, karena stereotype yang melekat bahwa RStudio adalah untuk R, padahal mereka juga mensupport Python. Overall...., Saya setuju dengan rencana dan visi ini.
 
 Kemudian muncul banyak pertanyaan. Nasib R-Package yang disupport RStudio bagaiamana? Hmm..., saya juga tidak yakin dengan ini. Abang kesayangan kita, bang Wickham sebenarnya sudah menyampaikan bahwa mereka akan terus mensupport R, bahkan dia mengatakan dia tidak akan belajar Python.
 

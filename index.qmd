@@ -1,8 +1,8 @@
 ---
-title: "Muhammad Apriandito A.S. , M.B.A."
+title: "Hi!"
 about:
   template: jolla
-  image: img/profile.jpg
+  image: img/profile.jfif
   links:
     - icon: twitter
       text: Twitter
@@ -15,4 +15,4 @@ about:
       href: https://linkedin.com/in/apriandito
 ---
 
-Seorang Entrepreneur, Programmer, Peneliti, dan Dosen. Direktur dari perusahaan riset sosial [**SocialX - Become an Extraordinary Social Scientist**](https://socialx.id/). Pegiat [**Data Analytics**](https://id.wikipedia.org/wiki/Analisis_data#:~:text=Analisis%20data%20adalah%20proses%20inspeksi,kesimpulan%20dan%20mendukung%20pengambilan%20keputusan.), tapi saat ini sedang fokus belajar tentang teknologi [**Blockchain**](https://id.wikipedia.org/wiki/Rantai_blok).
+Nama saya **Muhammad Apriandito A.S.**. Saya adalah seorang technopreneur yang juga menjadi dosen di sela kesibukan saya. Saya sangat menyukai bidang programming, terutama pada Artificial Intelligence, Big Data Analytics, dan Blockchain. Saya percaya bahwa dengan mengembangkan skill di bidang tersebut, saya dapat membantu memecahkan berbagai masalah yang ada di dunia ini. Selain itu, saya juga senang menuliskan pengalaman dan pengetahuan saya di blog ini agar dapat membantu orang lain yang juga ingin belajar lebih dalam tentang teknologi. Terima kasih sudah mengunjungi blog saya.
