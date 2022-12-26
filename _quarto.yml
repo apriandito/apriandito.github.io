@@ -10,11 +10,6 @@ website:
         text: Tentang
       - href: blog.qmd
         text: Blog
-    right: 
-      - icon: twitter
-        href: https://twitter.com/otidnairpa
-      - icon: github
-        href: https://github.com/apriandito
         
   page-footer: 
     left: "Made with Love and Code" 
