@@ -8,6 +8,6 @@ listing:
   categories: true
 ---
 
-Sedikit opini atau tutorial dari saya. Beberapa tulisan mungkin akan saya post ulang di website [SocialX](https://socialx.id/).
+Sedikit opini atau tutorial dari saya. Semoga dapat membantu.
 
 ------------------------------------------------------------------------
