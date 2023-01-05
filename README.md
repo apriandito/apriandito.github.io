@@ -1,2 +1,2 @@
-# apriandito.github.io
-Personal Website
+# My personal blog
+Hopefully I can write and share a lot.
