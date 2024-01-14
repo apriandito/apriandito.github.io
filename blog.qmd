@@ -8,6 +8,6 @@ listing:
   categories: true
 ---
 
-Sedikit opini atau tutorial dari saya. Semoga dapat membantu.
+Maybe my opinion or tutorial. Hopefully it's useful!
 
 ------------------------------------------------------------------------

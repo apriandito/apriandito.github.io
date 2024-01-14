@@ -1,28 +1,24 @@
 project:
   type: website
   output-dir: docs
-
 website:
   title: "Apriandito"
   navbar:
+    background: primary
+    search: true
     left:
       - href: index.qmd
-        text: Tentang
+        text: About
       - href: blog.qmd
         text: Blog
-        
   page-footer: 
-    left: "Made with Love and Code" 
-    right: "© Copyright Muhammad Apriandito | 2022"        
-
+    left: "Made with Code and ❤️" 
+    right: "© Copyright Muhammad Apriandito | 2024"        
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: zephyr
+    css: www/styles.css
     toc: true
-    
 execute:
   freeze: auto
-
 editor: visual
-
