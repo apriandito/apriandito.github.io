@@ -15,6 +15,4 @@ about:
       href: https://linkedin.com/in/apriandito
 ---
 
-**I'm Dito**, the director at R&D startup SocialX. We're empowering innovation daily. My passion is coding - I live for those late night R sessions and exploring new programming languages. When I'm not geeking out over code or keeping up with my curious son, you can find me at the university, guiding students to become tomorrow's changemakers.
-
-I may just toss up some of my college course materials here too in case any students or hobbyists can benefit. We all start somewhere on this coding journey, so I'm happy to pay forward what I've learned. Work and family keep me busy but we have fun exploring life's adventures.
+**I'm Dito**, the director at R&D startup SocialX. We're empowering innovation daily. My passion is coding - I live for those late night R sessions and exploring new programming languages. When I'm not geeking out over code or keeping up with my curious son, you can find me at the university, guiding students to become tomorrow's changemakers. I may just toss up some of my college course materials here too in case any students or hobbyists can benefit. We all start somewhere on this coding journey, so I'm happy to pay forward what I've learned. Work and family keep me busy but we have fun exploring life's adventures.

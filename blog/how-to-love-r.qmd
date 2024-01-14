@@ -1,9 +1,10 @@
 ---
-title: "How to love R as it is?"
+title: "How to Love R as It Is?"
 author: "Muhammad Apriandito"
 date: today
 categories:
   - Personal Opinion
+  - R
 ---
 
 ------------------------------------------------------------------------
