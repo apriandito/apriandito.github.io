@@ -6,13 +6,17 @@ website:
   navbar:
     background: primary
     search: true
+    pinned: true
     left:
       - href: index.qmd
         text: About
       - href: blog.qmd
         text: Blog
+    right: 
+      - icon: github
+        href: https://github.com/apriandito
   page-footer: 
-    left: "Made with Code and ❤️" 
+    left: "Made with Code, ☕,  and ❤️" 
     right: "© Copyright Muhammad Apriandito | 2024"        
 format:
   html:

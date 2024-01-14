@@ -1,0 +1,25 @@
+---
+title: "How to love R as it is?"
+author: "Muhammad Apriandito"
+date: today
+categories:
+  - Personal Opinion
+---
+
+------------------------------------------------------------------------
+
+Saya telah merenungkan untuk menulis buku tentang hal ini, dan mungkin saya akan benar-benar melakukannya. Akhir-akhir ini semakin sulit bagi saya untuk tetap setia pada R. Terutama karena Python terus berkembang dengan pesat. Hal ini membebani pikiran saya.
+
+Sudah lama hati kecil saya berbisik, apalagi setelah RStudio mulai mendukung Python, "Tinggalkan saja R. Pembaruannya melambat. Nanti kamu tertinggal. Jelas Posit lebih fokus pada Python sekarang."
+
+Memikirkan hal itu membuat saya sedih, bahkan sampai menangis\... 😢
+
+Saya mencoba Python beberapa kali. Ah, rasanya tidak pas, saya bingung harus bagaimana. Mengapa ya? Tidak ada integrasi yang mulus antar paket-paketnya. Setiap library punya gaya dan falsafah sendiri. Entah mengapa saya tidak merasa nyaman. Padahal bahasa pemrograman pertama yang saya pelajari adalah Python, tapi saya benar-benar merasa tidak cocok.
+
+Saya mencoba bahasa lain juga, seperti Ruby dan Elixir. Tapi dukungan untuk data science di sana bahkan lebih membingungkan dan terbatas. Untuk apa mempelajarinya?
+
+Akhirnya saya pasrah. Memang R tidak sempurna. Tapi jika kekurangannya tidak sampai merugikan pekerjaan saya, mengapa harus jadi masalah? Hanya karena ada opsi lain yang kelihatannya lebih canggih, apakah saya harus meninggalkan R padahal R yang paling cocok buat saya?
+
+> Dalam rutinitas data science yang padat, stabilitas R justru memberi ketenangan bagi saya. Sementara bahasa baru silih berganti dengan janji-janji tentang masa depan yang lebih cerah. Tapi pada akhirnya, **R terasa seperti pulang ke rumah.** Filsafatnya yang konsisten via tidyverse adalah yang terbaik bagi saya.
+
+Jadi untuk saat ini, **kami resmi bersama lagi, R dan saya.** Pasangan lama yang nyaman dan telah bertahan dari berbagai badai. Teman lama saya masih terasa seperti rumah. Petualangan baru kami dalam menulis analitik dan visualisasi yang indah terlihat lebih cerah dari sebelumnya. Kemana hubungan ini akan berlanjut nanti, hanya waktu yang akan menjawab. Tapi saya bahagia bisa menikmati R sedikit lebih lama lagi. **💕**
