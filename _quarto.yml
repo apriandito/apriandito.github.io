@@ -12,6 +12,8 @@ website:
         text: About
       - href: blog.qmd
         text: Blog
+      - href: social-engineering.qmd
+        text: Social Engineering
     right: 
       - icon: github
         href: https://github.com/apriandito

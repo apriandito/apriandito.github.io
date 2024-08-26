@@ -1,0 +1,11 @@
+---
+title: "Social Engineering"
+listing:
+  filter-ui: [title, date]
+  contents: blog
+  sort: "date desc"
+  type: default
+  categories: true
+---
+
+Segala hal terkait social-engineering. Semoga bermanfaat dan tidak disalah gunakan. AI banyak membantu disini.

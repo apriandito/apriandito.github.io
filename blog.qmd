@@ -8,6 +8,4 @@ listing:
   categories: true
 ---
 
-Maybe my opinion or tutorial. Hopefully it's useful!
-
-------------------------------------------------------------------------
+Bisa berisi tutorial, opini, atau mungkin kerandoman dalam hidup.
