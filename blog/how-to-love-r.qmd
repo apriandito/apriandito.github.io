@@ -13,7 +13,7 @@ Saya telah merenungkan untuk menulis buku tentang hal ini, dan mungkin saya akan
 
 Sudah lama hati kecil saya berbisik, apalagi setelah RStudio mulai mendukung Python, "Tinggalkan saja R. Pembaruannya melambat. Nanti kamu tertinggal. Jelas Posit lebih fokus pada Python sekarang."
 
-Memikirkan hal itu membuat saya sedih, bahkan sampai menangis\...(LEBAY) 😢
+Memikirkan hal itu membuat saya sedih, bahkan sampai menangis...(LEBAY AH) 😢
 
 Saya mencoba Python beberapa kali. Ah, rasanya tidak pas, saya bingung harus bagaimana. Mengapa ya? Tidak ada integrasi yang mulus antar paket-paketnya. Setiap library punya gaya dan falsafah sendiri. Entah mengapa saya tidak merasa nyaman. Padahal bahasa pemrograman pertama yang saya pelajari adalah Python, tapi saya benar-benar merasa tidak cocok.
 

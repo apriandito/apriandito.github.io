@@ -15,7 +15,7 @@ Berdasarkan keterangan dari website resmi [Posit](https://posit.co/), *Posit mea
 
 Alasan mereka berganti nama adalah karena visi RStudio yang semula hanya fokus pada R, sudah tidak sesuai lagi dengan perkembangan produk mereka yang kini juga mendukung bahasa pemrograman lain seperti Python. Mereka ingin memiliki fokus yang lebih luas dan komunitas yang lebih besar. Mereka sendiri mengakui bahwa mereka kesulitan untuk memasarkan produk mereka, karena stereotip yang melekat bahwa RStudio adalah untuk R, padahal mereka juga mendukung Python. Overall...., saya setuju dengan rencana dan visi ini.
 
-Kemudian muncul banyak pertanyaan. **Nasib package R yang didukung RStudio bagaimana?** Hmm\..., saya juga tidak yakin dengan ini. Bang [`Wickham`](https://hadley.nz/) sebenarnya sudah menyatakan bahwa mereka akan terus mendukung R, bahkan dia mengatakan dia tidak akan belajar Python.
+Kemudian muncul banyak pertanyaan. **Nasib package R yang didukung RStudio bagaimana?** Hmm..., saya juga tidak yakin dengan ini. Bang [`Wickham`](https://hadley.nz/) sebenarnya sudah menyatakan bahwa mereka akan terus mendukung R, bahkan dia mengatakan dia tidak akan belajar Python.
 
 Menurut saya, paket R yang sudah ada akan tetap dikembangkan oleh Posit, namun kemungkinan tidak secepat dan sebaik masa ketika fokus mereka hanya pada R dulu.
 
