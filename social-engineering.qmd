@@ -2,7 +2,7 @@
 title: "Social Engineering"
 listing:
   filter-ui: [title, date]
-  contents: blog
+  contents: social-engineering
   sort: "date desc"
   type: default
   categories: true
