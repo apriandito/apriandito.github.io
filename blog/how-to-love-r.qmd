@@ -3,7 +3,7 @@ title: "How to Love R as It Is?"
 author: "Muhammad Apriandito"
 date: "12/05/2023"
 categories:
-  - Personal Opinion
+  - Opini Personal
   - R
 ---
 

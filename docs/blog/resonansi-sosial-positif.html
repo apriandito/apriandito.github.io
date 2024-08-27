@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Muhammad Apriandito">
+<meta name="dcterms.date" content="2026-03-08">
 
-<title>Apriandito - Blog</title>
+<title>Apriandito - Resonansi Sosial Positif</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +25,21 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,67 +67,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-date"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="www/styles.css">
+<link rel="stylesheet" href="../www/styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -137,7 +79,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Apriandito</span>
     </a>
   </div>
@@ -148,7 +90,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -170,21 +112,47 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Opini Personal">Opini Personal <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Politik">Politik <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Random">Random <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Social Engineering">Social Engineering <span class="quarto-category-count">(3)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#empathic-priming" id="toc-empathic-priming" class="nav-link active" data-scroll-target="#empathic-priming">Empathic Priming</a></li>
+  <li><a href="#collective-narrative-framing" id="toc-collective-narrative-framing" class="nav-link" data-scroll-target="#collective-narrative-framing">Collective Narrative Framing</a></li>
+  <li><a href="#aspirational-anchoring" id="toc-aspirational-anchoring" class="nav-link" data-scroll-target="#aspirational-anchoring">Aspirational Anchoring</a></li>
+  <li><a href="#social-commitment-cascades" id="toc-social-commitment-cascades" class="nav-link" data-scroll-target="#social-commitment-cascades">Social Commitment Cascades</a></li>
+  <li><a href="#neuroplastic-conditioning" id="toc-neuroplastic-conditioning" class="nav-link" data-scroll-target="#neuroplastic-conditioning">Neuroplastic Conditioning</a></li>
+  <li><a href="#bagaimana-jika-tetap-tidak-berhasil" id="toc-bagaimana-jika-tetap-tidak-berhasil" class="nav-link" data-scroll-target="#bagaimana-jika-tetap-tidak-berhasil">Bagaimana Jika Tetap Tidak Berhasil?</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
+<h1 class="title">Resonansi Sosial Positif</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Social Engineering</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Muhammad Apriandito </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 8, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -194,237 +162,57 @@ window.Quarto = {
 </header>
 
 
-<p>Bisa berisi tutorial, opini, atau mungkin kerandoman dalam hidup.</p>
+<hr>
+<p>Anda melempar batu ke kolam yang tenang. Riak air yang terbentuk akan menyebar ke seluruh permukaan kolam. Begitu pula, tindakan positif kita dapat menyebar dalam jaringan sosial kita, meskipun kadang di Indonesia, orang lebih suka fokus pada kesalahan atau kekurangan orang lain. Namun, dengan pendekatan yang tepat, kita bisa menciptakan riak-riak positif yang menginspirasi banyak orang untuk ikut melakukan kebaikan. Inilah konsep <strong>Resonansi Sosial Positif</strong>, yaitu menciptakan perubahan positif yang berkelanjutan dalam masyarakat melalui penerapan teknik <strong>social engineering</strong> yang strategis dan etis.</p>
+<p><img src="images/clipboard-854009580.png" class="img-fluid"></p>
+<p>Mari kita lihat komponen-komponen kunci dari konsep ini dan bagaimana kita bisa menerapkannya dalam kehidupan sehari-hari di Indonesia:</p>
+<section id="empathic-priming" class="level2">
+<h2 class="anchored" data-anchor-id="empathic-priming">Empathic Priming</h2>
+<p><strong>Priming</strong> adalah teknik yang mempengaruhi cara orang bereaksi berdasarkan pengalaman atau informasi yang mereka terima sebelumnya. Di Indonesia, banyak orang cenderung memperhatikan tindakan negatif, tetapi kita bisa mengubah ini dengan <strong>Priming Empatik</strong>—menggunakan tindakan positif yang menarik perhatian.</p>
+<p><strong>Contoh :</strong> Di jalan, daripada hanya mengeluh tentang pengendara motor yang tidak tertib, coba mulai dengan tindakan kecil yang bisa menginspirasi. Misalnya, ketika Anda menunggu di lampu merah, coba beri jalan kepada pejalan kaki atau pengendara lain yang membutuhkan. Orang-orang di sekitar yang melihat tindakan Anda mungkin akan merasa tergerak untuk lebih peduli dan lebih menghargai pengguna jalan lainnya. Tindakan ini bisa menjadi contoh dan menular ke orang lain, menciptakan “emotional contagion” atau penyebaran emosi positif yang bisa mengubah suasana hati dan perilaku orang di sekitar.</p>
+</section>
+<section id="collective-narrative-framing" class="level2">
+<h2 class="anchored" data-anchor-id="collective-narrative-framing">Collective Narrative Framing</h2>
+<p>Di Indonesia, seringkali narasi yang muncul adalah tentang masalah dan kritik, seperti korupsi atau ketidakberesan. <strong>Framing Narasi Kolektif</strong> bisa digunakan untuk mengubah fokus dari hal-hal negatif menjadi positif.</p>
+<p><strong>Contoh:</strong> Alih-alih selalu membahas buruknya fasilitas umum, Anda bisa memulai percakapan tentang “komunitas peduli fasilitas umum” di lingkungan Anda. Anda bisa membuat kampanye di media sosial atau di grup WhatsApp warga, berbagi cerita tentang orang-orang yang gotong royong membersihkan taman atau memperbaiki jalan yang rusak. Dengan cara ini, Anda tidak hanya membantu mengubah cara orang berpikir, tetapi juga mengajak mereka untuk ikut berpartisipasi dalam tindakan nyata. Orang lebih cenderung mengikuti tindakan positif yang mereka lihat dan dengar dari orang lain, terutama jika cerita-cerita ini diceritakan dengan cara yang menarik dan menyentuh.</p>
+</section>
+<section id="aspirational-anchoring" class="level2">
+<h2 class="anchored" data-anchor-id="aspirational-anchoring">Aspirational Anchoring</h2>
+<p>Banyak orang di Indonesia sering kali merasa “yang penting sudah berbuat, hasilnya urusan nanti”. Dengan <strong>Anchoring Aspirasional</strong>, kita bisa menetapkan standar yang lebih tinggi untuk mendorong perilaku sosial yang lebih baik.</p>
+<p><strong>Contoh:</strong> Daripada hanya mengajak orang untuk tidak membuang sampah sembarangan, Anda bisa menginisiasi kampanye “Kampung Zero Waste” di lingkungan Anda. Mulai dengan mengajak tetangga untuk ikut serta dalam memilah sampah, membuat kompos, dan daur ulang barang-barang bekas. Ceritakan kesuksesan kampung lain yang berhasil menjadi bersih dan hijau dengan cara ini, sehingga kampung Anda pun merasa tertantang untuk menjadi lebih baik. Dengan menetapkan contoh yang nyata dan tujuan yang ambisius tetapi bisa dicapai, Anda menciptakan “jangkar” baru yang membuat orang merasa bahwa menjaga kebersihan lingkungan adalah standar yang harus dicapai.</p>
+</section>
+<section id="social-commitment-cascades" class="level2">
+<h2 class="anchored" data-anchor-id="social-commitment-cascades">Social Commitment Cascades</h2>
+<p>Di Indonesia, banyak orang cenderung mengikuti apa yang dilakukan oleh komunitas atau orang-orang terdekat mereka. Prinsip <strong>konsistensi</strong> menunjukkan bahwa orang suka merasa konsisten dengan tindakan atau komitmen yang mereka buat. <strong>Cascading Komitmen Sosial</strong> memanfaatkan ini untuk menciptakan efek domino dari komitmen positif.</p>
+<p><strong>Praktis:</strong> Anda bisa memulai sebuah tantangan di grup WhatsApp RT/RW, seperti tantangan “30 Hari Menanam Pohon”. Setiap orang diminta untuk menanam satu pohon di depan rumah mereka dan mengajak tetangga terdekat untuk ikut serta. Setiap kali seseorang menyelesaikan tantangan, mereka membagikannya di grup, dan ini akan memotivasi anggota lain untuk juga ikut serta. Dengan menggunakan platform sosial yang familiar, komitmen kecil ini bisa menyebar luas dan menginspirasi lebih banyak orang untuk berpartisipasi.</p>
+</section>
+<section id="neuroplastic-conditioning" class="level2">
+<h2 class="anchored" data-anchor-id="neuroplastic-conditioning">Neuroplastic Conditioning</h2>
+<p>Di Indonesia, banyak pengalaman sosial kita dipengaruhi oleh interaksi sehari-hari yang sering kali negatif, seperti macet atau layanan publik yang kurang memadai. <strong>Pengkondisian Neuroplastis</strong> bisa digunakan untuk membentuk perilaku sosial yang lebih positif melalui pengalaman berulang yang positif.</p>
+<p><strong>Contoh:</strong> Anda mengadakan acara rutin di taman kota, seperti senam pagi bersama atau kerja bakti membersihkan taman, yang tidak hanya menjadi ajang olahraga tetapi juga sarana membangun komunitas yang positif. Kegiatan ini akan menciptakan pengalaman positif berulang yang memperkuat hubungan antarwarga. Selain itu, Anda bisa mengadakan festival tahunan bertema “Kampung Bersih dan Sehat” di mana warga bersama-sama membersihkan lingkungan dan merayakan dengan acara makan bersama atau pentas seni. Pengalaman positif yang diulang-ulang ini akan membentuk kebiasaan sosial yang lebih baik dan menciptakan memori kolektif yang positif tentang kerja sama komunitas.</p>
+<p>Dengan menyesuaikan konsep-konsep ini dalam konteks Indonesia dan memahami dinamika sosial yang ada, kita dapat menciptakan resonansi sosial positif yang lebih kuat dan menciptakan perubahan yang lebih berarti dalam masyarakat kita.</p>
+</section>
+<section id="bagaimana-jika-tetap-tidak-berhasil" class="level2">
+<h2 class="anchored" data-anchor-id="bagaimana-jika-tetap-tidak-berhasil">Bagaimana Jika Tetap Tidak Berhasil?</h2>
+<p>Tentu saja, meskipun kita telah berusaha menerapkan berbagai strategi resonansi sosial positif, ada kalanya upaya kita tampaknya tidak memberikan hasil yang diharapkan. Ini bisa disebabkan oleh berbagai faktor, seperti lingkungan sosial yang kurang mendukung, budaya yang cenderung lebih memperhatikan hal negatif, atau resistensi terhadap perubahan. Dalam situasi seperti ini, penting untuk tetap bersabar dan tidak putus asa. Perubahan sosial sering kali membutuhkan waktu yang lama dan upaya berulang. Mungkin hasilnya tidak langsung terlihat, tetapi dengan konsistensi, kita bisa mulai mempengaruhi satu per satu individu di sekitar kita. Jika satu strategi tidak berhasil, kita bisa mencoba pendekatan lain yang lebih sesuai dengan konteks lokal dan dinamika sosial yang ada.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Kuncinya adalah terus berinovasi dalam cara kita “melempar batu” ke kolam sosial dan tetap percaya bahwa tindakan positif, sekecil apa pun, memiliki potensi untuk menciptakan riak yang lebih besar di kemudian hari.</p>
+</div>
+</div>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Social Engineering,Politik" data-listing-date-sort="1772902800000" data-listing-file-modified-sort="1724728307510" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1322">
-<div class="thumbnail">
-<p><a href="./blog/bau-ketek-dan-social-engineering.html" class="no-external"></a></p><a href="./blog/bau-ketek-dan-social-engineering.html" class="no-external">
-<p class="card-img-top"><img src="blog/images/clipboard-3319025418.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./blog/bau-ketek-dan-social-engineering.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/bau-ketek-dan-social-engineering.html" class="no-external">Bau Ketek dan Social Engineering</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/bau-ketek-dan-social-engineering.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Social Engineering'); return false;">
-Social Engineering
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Politik'); return false;">
-Politik
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/bau-ketek-dan-social-engineering.html" class="no-external">Isu tentang Erina Gudono, menantu Presiden Joko Widodo, yang diisukan “bau ketek” mungkin tampak sepele dan menggelikan. Namun, di balik isu yang tampaknya remeh ini…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/bau-ketek-dan-social-engineering.html" class="no-external">
-<div class="listing-date">
-Mar 8, 2026
-</div>
-<div class="listing-author">
-Muhammad Apriandito
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Social Engineering,Politik" data-listing-date-sort="1772902800000" data-listing-file-modified-sort="1724730433291" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="872">
-<div class="thumbnail">
-<p><a href="./blog/resonansi-sosial-positif.html" class="no-external"></a></p><a href="./blog/resonansi-sosial-positif.html" class="no-external">
-<p class="card-img-top"><img src="blog/images/clipboard-854009580.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./blog/resonansi-sosial-positif.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/resonansi-sosial-positif.html" class="no-external">Resonansi Sosial Positif</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/resonansi-sosial-positif.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Social Engineering'); return false;">
-Social Engineering
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Politik'); return false;">
-Politik
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/resonansi-sosial-positif.html" class="no-external">Anda melempar batu ke kolam yang tenang. Riak air yang terbentuk akan menyebar ke seluruh permukaan kolam. Begitu pula, tindakan positif kita dapat menyebar dalam jaringan…<strong></strong><strong></strong></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/resonansi-sosial-positif.html" class="no-external">
-<div class="listing-date">
-Mar 8, 2026
-</div>
-<div class="listing-author">
-Muhammad Apriandito
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Social Engineering" data-listing-date-sort="1770483600000" data-listing-file-modified-sort="1724728306026" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="842">
-<div class="thumbnail">
-<p><a href="./blog/mengenal-social-engineering.html" class="no-external"></a></p><a href="./blog/mengenal-social-engineering.html" class="no-external">
-<p class="card-img-top"><img src="blog/images/clipboard-2272977569.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./blog/mengenal-social-engineering.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/mengenal-social-engineering.html" class="no-external">Social Engineering: Seni Memanipulasi Perilaku Manusia</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/mengenal-social-engineering.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Social Engineering'); return false;">
-Social Engineering
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/mengenal-social-engineering.html" class="no-external">Anda sedang berjalan di trotoar kota yang ramai. Tiba-tiba, seorang pria berjas rapi menghampiri Anda dengan wajah panik. Dia mengaku sebagai eksekutif bank yang kehilangan…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/mengenal-social-engineering.html" class="no-external">
-<div class="listing-date">
-Feb 8, 2026
-</div>
-<div class="listing-author">
-Muhammad Apriandito
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="Opini Personal,R" data-listing-date-sort="1701709200000" data-listing-file-modified-sort="1724728676296" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="290">
-<div class="thumbnail">
-<p><a href="./blog/how-to-love-r.html" class="no-external"></a></p><a href="./blog/how-to-love-r.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./blog/how-to-love-r.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/how-to-love-r.html" class="no-external">How to Love R as It Is?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/how-to-love-r.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Opini Personal'); return false;">
-Opini Personal
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/how-to-love-r.html" class="no-external">Saya telah merenungkan untuk menulis buku tentang hal ini, dan mungkin saya akan benar-benar melakukannya. Akhir-akhir ini semakin sulit bagi saya untuk tetap setia pada R.…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/how-to-love-r.html" class="no-external">
-<div class="listing-date">
-Dec 5, 2023
-</div>
-<div class="listing-author">
-Muhammad Apriandito
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="Opini Personal,Random" data-listing-date-sort="1691082000000" data-listing-file-modified-sort="1724728694015" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="268">
-<div class="thumbnail">
-<p><a href="./blog/random-1.html" class="no-external"></a></p><a href="./blog/random-1.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./blog/random-1.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/random-1.html" class="no-external">Random Thoughts #1</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/random-1.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Opini Personal'); return false;">
-Opini Personal
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Random'); return false;">
-Random
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/random-1.html" class="no-external">Ini pukul 23.17 tengah malam, seharusnya saya istirahat tidur atau setidaknya mengerjakan pekerjaan yang menumpuk. Namun entah mengapa malam ini saya sama sekali tidak…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/random-1.html" class="no-external">
-<div class="listing-date">
-Aug 4, 2023
-</div>
-<div class="listing-author">
-Muhammad Apriandito
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="Opini Personal,R" data-listing-date-sort="1659459600000" data-listing-file-modified-sort="1724728685722" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="220">
-<div class="thumbnail">
-<p><a href="./blog/r-studio-posit.html" class="no-external"></a></p><a href="./blog/r-studio-posit.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./blog/r-studio-posit.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/r-studio-posit.html" class="no-external">RStudio berubah nama menjadi Posit. Seperti Apa Kedepannya?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/r-studio-posit.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Opini Personal'); return false;">
-Opini Personal
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/r-studio-posit.html" class="no-external">Di <code>rstudio::conf(2022)</code> kemarin, terdapat pengumuman bahwa RStudio akan berubah nama menjadi Posit. Yup <strong>POSIT!</strong>. Awal-awal ini agak terdengar aneh untuk saya.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/r-studio-posit.html" class="no-external">
-<div class="listing-date">
-Aug 3, 2022
-</div>
-<div class="listing-author">
-Muhammad Apriandito
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

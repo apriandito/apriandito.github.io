@@ -1,8 +1,9 @@
 ---
 title: "Social Engineering: Seni Memanipulasi Perilaku Manusia"
+author: "Muhammad Apriandito"
 date: "26/08/2024"
 categories:
-  - Pengenalan
+  - Social Engineering
 ---
 
 ------------------------------------------------------------------------
@@ -11,11 +12,11 @@ Anda sedang berjalan di trotoar kota yang ramai. Tiba-tiba, seorang pria berjas 
 
 Namun, apa yang tidak Anda sadari adalah bahwa Anda baru saja menjadi korban social engineering. Pria itu bukanlah eksekutif bank, melainkan seorang peretas ulung. Pesan singkat yang dia kirim berisi kode berbahaya yang kini bersarang di ponsel Anda, memberinya akses ke semua data pribadi Anda.
 
-![](images/clipboard-2272977569.png)
+![Ilustrasi: Social Engineering](images/clipboard-2272977569.png)
 
 Inilah dunia **social engineering** — sebuah arena di mana batas antara realitas dan manipulasi menjadi kabur. Para praktisi social engineering, tidak membobol sistem komputer dengan kode rumit. Mereka membobol sesuatu yang jauh lebih kompleks: **pikiran manusia.**
 
-Dampak social engineering bisa sangat devastatif. Anda mungkin berpikir, "Ah, itu tidak akan terjadi padaku." Tapi ingatlah, korban social engineering bukan hanya orang-orang yang kurang waspada. Bahkan eksekutif perusahaan besar pun bisa terjebak. Pada tahun 2016, seorang CFO dari sebuah perusahaan multinasional mentransfer jutaan dolar ke rekening palsu hanya karena sebuah email yang tampaknya berasal dari CEO perusahaan. *Email itu palsu, tapi uangnya nyata — dan hilang selamanya.*
+Dampak social engineering bisa sangat devastatif. Anda mungkin berpikir, "Ah, itu tidak akan terja" Tapi ingatlah, korban social engineering bukan hanya orang-orang yang kurang waspada. Bahkan eksekutif perusahaan besar pun bisa terjebak. Pada tahun 2016, seorang CFO dari sebuah perusahaan multinasional mentransfer jutaan dolar ke rekening palsu hanya karena sebuah email yang tampaknya berasal dari CEO perusahaan. *Email itu palsu, tapi uangnya nyata — dan hilang selamanya.*
 
 Eksploitasi dalam social engineering tidak mengenal batas. Seorang "*Social Engineer*" bisa menyamar sebagai petugas IT support dan dengan mudah mendapatkan password dari karyawan yang tidak curiga. Mereka bisa menciptakan situs web palsu yang tampak identik dengan situs bank asli, menipu ribuan nasabah untuk memasukkan data login mereka. Bahkan, mereka bisa memanipulasi emosi Anda, menciptakan rasa urgensi palsu yang membuat Anda bertindak tanpa berpikir panjang.
 
@@ -25,9 +26,7 @@ Yang mungkin tidak anda sadari. Social engineering bahkan bisa memanfaatkan sifa
 
 Dampak social engineering tidak hanya terbatas pada kerugian finansial. Pencurian identitas, pelanggaran privasi, dan bahkan manipulasi opini publik dalam skala besar bisa terjadi. Sebuah kampanye disinformasi yang dirancang dengan cermat, memanfaatkan prinsip-prinsip social engineering untuk mempengaruhi hasil pemilu atau menciptakan kekacauan sosial, adalah contoh nyata dari bahaya ini.
 
-**Sebagai ilustrasi, mari kita lihat skenario berikut:**
-
-Sebuah negara sedang menghadapi pemilihan umum yang krusial. Selama berbulan-bulan menjelang hari pemungutan suara, media sosial dipenuhi dengan berita-berita yang menggemparkan. Video viral menunjukkan kandidat presiden yang favorit sedang melakukan tindakan tidak bermoral. Dokumen yang bocor mengungkapkan rencana rahasia untuk menjual aset negara ke pihak asing. Laporan "ahli" memperingatkan tentang ancaman ekonomi yang akan terjadi jika partai oposisi menang.
+**Contoh lain:** Sebuah negara sedang menghadapi pemilihan umum yang krusial. Selama berbulan-bulan menjelang hari pemungutan suara, media sosial dipenuhi dengan berita-berita yang menggemparkan. Video viral menunjukkan kandidat presiden yang favorit sedang melakukan tindakan tidak bermoral. Dokumen yang bocor mengungkapkan rencana rahasia untuk menjual aset negara ke pihak asing. Laporan "ahli" memperingatkan tentang ancaman ekonomi yang akan terjadi jika partai oposisi menang.
 
 Semua ini terlihat sangat meyakinkan. Orang-orang membagikan informasi ini dengan cepat, didorong oleh rasa takut dan amarah. Perdebatan memanas di mana-mana - di warung kopi, di kantor, bahkan di dalam keluarga. Masyarakat mulai terpecah belah.
 
@@ -51,4 +50,4 @@ Dampaknya luar biasa. Kepercayaan publik terhadap institusi demokrasi goyah. Kel
 
 Skenario-skenario ini mungkin terdengar seperti fiksi ilmiah, tapi elemen-elemennya sudah mulai terlihat dalam dunia nyata. Kasus Cambridge Analytica, kampanye disinformasi dalam berbagai pemilu di seluruh dunia, dan meningkatnya polarisasi sosial yang dipicu oleh echo chambers online - semuanya menunjukkan potensi destruktif dari social engineering di era digital.
 
-![](images/clipboard-2390510423.png)
+![Foto: Mark Zuckerberg yang terlibat dalam kasus skandal Cambridge Analytica](images/clipboard-2390510423.png)

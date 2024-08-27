@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Muhammad Apriandito">
+<meta name="dcterms.date" content="2026-03-08">
 
-<title>Apriandito - Blog</title>
+<title>Apriandito - Bau Ketek dan Social Engineering</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +25,21 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,67 +67,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-date"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="www/styles.css">
+<link rel="stylesheet" href="../www/styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -137,7 +79,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Apriandito</span>
     </a>
   </div>
@@ -148,7 +90,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -170,21 +112,46 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Opini Personal">Opini Personal <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Politik">Politik <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Random">Random <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Social Engineering">Social Engineering <span class="quarto-category-count">(3)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#social-engineering-dalam-konteks-disinformasi" id="toc-social-engineering-dalam-konteks-disinformasi" class="nav-link active" data-scroll-target="#social-engineering-dalam-konteks-disinformasi">Social Engineering dalam Konteks Disinformasi</a></li>
+  <li><a href="#strategi-taktis-dalam-social-engineering" id="toc-strategi-taktis-dalam-social-engineering" class="nav-link" data-scroll-target="#strategi-taktis-dalam-social-engineering">Strategi Taktis dalam Social Engineering</a></li>
+  <li><a href="#dampak-jangka-panjang-dari-social-engineering" id="toc-dampak-jangka-panjang-dari-social-engineering" class="nav-link" data-scroll-target="#dampak-jangka-panjang-dari-social-engineering">Dampak Jangka Panjang dari Social Engineering</a></li>
+  <li><a href="#strategi-membalas-isu-dengan-efektif" id="toc-strategi-membalas-isu-dengan-efektif" class="nav-link" data-scroll-target="#strategi-membalas-isu-dengan-efektif">Strategi Membalas Isu dengan Efektif</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
+<h1 class="title">Bau Ketek dan Social Engineering</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Social Engineering</div>
+    <div class="quarto-category">Politik</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Muhammad Apriandito </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 8, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -194,237 +161,66 @@ window.Quarto = {
 </header>
 
 
-<p>Bisa berisi tutorial, opini, atau mungkin kerandoman dalam hidup.</p>
+<hr>
+<p>Isu tentang Erina Gudono, menantu Presiden Joko Widodo, yang diisukan “bau ketek” mungkin tampak sepele dan menggelikan. Namun, di balik isu yang tampaknya remeh ini, terdapat penggunaan teknik social engineering yang lebih mendalam. Dalam konteks ini, social engineering bukan sekadar cara untuk meretas sistem komputer atau mendapatkan informasi rahasia, melainkan alat yang kuat untuk mempengaruhi opini publik, menciptakan persepsi yang diinginkan, dan mengendalikan narasi di ruang publik.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-3319025418.png" class="img-fluid figure-img"></p>
+<figcaption>Ilustrasi: Bau Ketek</figcaption>
+</figure>
+</div>
+<section id="social-engineering-dalam-konteks-disinformasi" class="level2">
+<h2 class="anchored" data-anchor-id="social-engineering-dalam-konteks-disinformasi">Social Engineering dalam Konteks Disinformasi</h2>
+<p>Social engineering dalam konteks ini berfokus pada manipulasi psikologis dan emosional publik. Teknik ini memanfaatkan sifat manusia yang mudah terpengaruh oleh informasi yang menarik perhatian atau memicu emosi tertentu, seperti kemarahan, kecemasan, atau bahkan tawa. Teknik ini bekerja pada beberapa tingkatan:</p>
+<ol type="1">
+<li><p><strong>Psychological Targeting (Penargetan Psikologis):</strong> Salah satu aspek paling kuat dari social engineering adalah penargetan psikologis. Dalam kasus isu “bau ketek,” pelaku mungkin menargetkan emosi tertentu, seperti rasa jijik atau tawa, untuk mempengaruhi persepsi publik terhadap Erina Gudono. Emosi yang kuat seperti ini dapat mengaburkan penilaian rasional dan menyebabkan orang lebih mudah menerima atau mempercayai informasi yang tidak berdasar.</p></li>
+<li><p><strong>Cognitive Bias Exploitation (Eksploitasi Bias Kognitif):</strong> Teknik ini memanfaatkan bias kognitif manusia, seperti <strong>confirmation bias</strong> (kecenderungan untuk mencari, menafsirkan, atau mengingat informasi yang mengonfirmasi keyakinan yang ada) dan <strong>availability heuristic</strong> (kecenderungan untuk lebih mempercayai informasi yang mudah diingat atau sering dilihat). Dengan menyebarkan rumor “bau ketek,” pelaku bisa mengeksploitasi bias ini untuk membuat orang lebih mudah menerima informasi negatif tentang target, bahkan tanpa bukti konkret.</p></li>
+<li><p><strong>Information Saturation (Saturasi Informasi):</strong> Dengan membanjiri media sosial dan platform berita dengan isu tertentu, pelaku bisa menciptakan kesan bahwa informasi tersebut adalah hal yang signifikan atau benar. Saturasi informasi ini bisa mengaburkan kebenaran dan membuat publik kesulitan untuk membedakan mana informasi yang valid dan mana yang tidak.</p></li>
+<li><p><strong>Emotional Contagion (Penyebaran Emosi):</strong> Emosi dapat menyebar dengan cepat melalui jaringan sosial, dan teknik social engineering sering kali memanfaatkan fenomena ini. Isu yang memicu reaksi emosional kuat, seperti tawa atau rasa jijik, dapat dengan cepat menyebar dari orang ke orang, memperbesar dampaknya dan mempercepat penyebarannya.</p></li>
+</ol>
+</section>
+<section id="strategi-taktis-dalam-social-engineering" class="level2">
+<h2 class="anchored" data-anchor-id="strategi-taktis-dalam-social-engineering">Strategi Taktis dalam Social Engineering</h2>
+<p>Social engineering dalam kasus ini bukan hanya tentang menciptakan isu yang tampaknya tidak masuk akal, tetapi juga melibatkan strategi taktis yang dirancang dengan baik:</p>
+<ol type="1">
+<li><p><strong>Creation of a “Buzz” (Penciptaan “Buzz”):</strong> Salah satu strategi adalah menciptakan “buzz” atau kegemparan di sekitar isu tertentu. Ini bisa dicapai melalui posting di media sosial yang diatur sedemikian rupa untuk menjadi viral. Memanfaatkan algoritma platform yang mendorong konten viral, pelaku bisa memastikan bahwa isu ini mencapai audiens yang luas dalam waktu singkat.</p></li>
+<li><p><strong>Seeding False Information (Penanaman Informasi Palsu):</strong> Teknik ini melibatkan penyebaran informasi palsu melalui akun-akun yang tampaknya kredibel atau melalui komentar di forum publik dan media sosial. Dengan cara ini, informasi palsu bisa tampak lebih valid atau dipercaya, karena seolah-olah didukung oleh banyak sumber.</p></li>
+<li><p><strong>Echo Chambers and Filter Bubbles (Ruang Gema dan Gelembung Filter):</strong> Di media sosial, orang cenderung berinteraksi dengan mereka yang memiliki pandangan serupa, menciptakan “echo chambers” di mana informasi yang sama diulang-ulang. Dengan memanfaatkan mekanisme ini, pelaku bisa memastikan bahwa informasi palsu atau negatif terus diperkuat di kalangan kelompok tertentu, memperkuat keyakinan dan persepsi mereka.</p></li>
+<li><p><strong>Manipulating Trust through Familiarity (Manipulasi Kepercayaan melalui Familiaritas):</strong> Orang cenderung mempercayai informasi dari sumber yang mereka kenal atau yang akrab bagi mereka. Dengan menyebarkan rumor melalui saluran yang dipercaya oleh target, pelaku bisa meningkatkan kemungkinan bahwa informasi tersebut akan diterima tanpa dipertanyakan.</p></li>
+</ol>
+</section>
+<section id="dampak-jangka-panjang-dari-social-engineering" class="level2">
+<h2 class="anchored" data-anchor-id="dampak-jangka-panjang-dari-social-engineering">Dampak Jangka Panjang dari Social Engineering</h2>
+<p>Teknik social engineering seperti ini tidak hanya memiliki dampak jangka pendek, seperti peningkatan popularitas isu atau perbincangan publik, tetapi juga memiliki konsekuensi jangka panjang yang lebih serius:</p>
+<ol type="1">
+<li><p><strong>Damage to Reputation (Kerusakan Reputasi):</strong> Bahkan setelah rumor dibantah atau diluruskan, kerusakan reputasi bisa sulit diperbaiki. Opini negatif yang telah terbentuk sering kali lebih tahan lama daripada klarifikasi atau pembantahan.</p></li>
+<li><p><strong>Undermining Trust in Institutions (Meruntuhkan Kepercayaan pada Institusi):</strong> Ketika teknik social engineering digunakan untuk menargetkan figur publik atau institusi, itu dapat meruntuhkan kepercayaan publik pada sistem politik atau sosial secara keseluruhan. Hal ini bisa menyebabkan peningkatan sinisme dan ketidakpercayaan terhadap media dan sumber informasi lainnya.</p></li>
+<li><p><strong>Normalization of Disinformation (Normalisasi Disinformasi):</strong> Semakin sering teknik-teknik ini digunakan, semakin besar kemungkinan disinformasi menjadi hal yang “normal” atau dapat diterima dalam diskusi publik. Ini bisa merusak kesehatan demokrasi dan masyarakat secara keseluruhan, di mana kebenaran menjadi subyektif dan manipulasi menjadi praktik standar.</p></li>
+</ol>
+</section>
+<section id="strategi-membalas-isu-dengan-efektif" class="level2">
+<h2 class="anchored" data-anchor-id="strategi-membalas-isu-dengan-efektif">Strategi Membalas Isu dengan Efektif</h2>
+<p>Berikut adalah beberapa strategi social engineering yang dapat diterapkan untuk meredam dan membalikkan dampak dari isu ini:</p>
+<ol type="1">
+<li><p><strong>Counter-Narrative with Humor and Relatability (Kontra-Naratif dengan Humor dan Keakraban)</strong></p>
+<p>Menggunakan <strong>self-deprecating humor</strong> (humor merendahkan diri sendiri) dapat mengubah narasi dari negatif menjadi lebih simpatik. Erina Gudono dapat secara publik membuat lelucon ringan mengenai isu “bau ketek,” baik di media sosial maupun dalam penampilan publik. Ini menunjukkan <strong>self-confidence</strong> (kepercayaan diri) dan <strong>resilience</strong> (ketahanan) terhadap serangan tersebut, yang dapat meningkatkan <strong>likeability</strong> (ketertarikan) dan membuatnya lebih relatable bagi audiens. Selain itu, <strong>engaging with the audience</strong> (berinteraksi dengan audiens) secara langsung di media sosial, merespons komentar atau meme dengan sikap santai dan terbuka, dapat mengundang simpati dari publik yang merasa bahwa isu ini berlebihan dan tidak perlu diperbesar.</p></li>
+<li><p><strong>Information Saturation with Neutral or Diversionary Content (Saturasi Informasi dengan Konten Netral atau Pengalihan)</strong></p>
+<p>Daripada berusaha memulihkan reputasi dengan menonjolkan sisi positif yang mungkin sudah dianggap negatif, lebih baik menggunakan strategi <strong>neutral content flooding</strong> (membanjiri dengan konten netral). Ini melibatkan pembuatan dan penyebaran konten yang tidak terkait langsung dengan isu, seperti topik-topik umum atau informasi yang menarik tetapi netral. Selain itu, <strong>diversionary tactics</strong> (taktik pengalihan) juga bisa diterapkan dengan menciptakan narasi baru yang lebih menarik perhatian publik daripada isu “bau ketek”. Misalnya, dengan membahas topik-topik yang sedang tren atau meluncurkan proyek baru yang dapat mengalihkan fokus publik.</p></li>
+<li><p><strong>Community Building and Mobilization for Empathy (Membangun Komunitas dan Mobilisasi untuk Empati)</strong></p>
+<p>Menggunakan pendekatan <strong>community building</strong> (pembangunan komunitas) untuk menciptakan jaringan dukungan yang kuat adalah strategi penting. Ini dapat melibatkan ajakan kepada komunitas pendukung untuk mempromosikan pentingnya empati dan saling menghormati di media sosial, mengalihkan fokus dari isu negatif ke dampak sosial dari penyebaran rumor. Selain itu, <strong>empathy campaigns</strong> (kampanye empati) bisa digalakkan untuk melawan budaya shaming atau fitnah, seperti kampanye tagar yang mendukung perilaku positif dan melawan tindakan bullying.</p></li>
+<li><p><strong>Psychological Reframing (Pembingkaian Ulang Psikologis)</strong></p>
+<p>Mengubah cara pandang publik terhadap isu ini dengan teknik <strong>psychological reframing</strong> dapat efektif. Ini bisa dilakukan dengan <strong>shifting focus from the person to the issue</strong> (mengalihkan fokus dari individu ke isu yang lebih besar), misalnya dengan mengubah percakapan dari serangan pribadi terhadap Erina Gudono menjadi diskusi tentang bahaya rumor dan fitnah bagi masyarakat. Selain itu, <strong>highlighting the absurdity of the rumor</strong> (menyoroti ketidakmasukakalan rumor) juga bisa menjadi cara untuk mengurangi kepercayaan publik terhadap informasi yang tidak berdasar tersebut.</p></li>
+<li><p><strong>Corrective Action and Fact-Checking (Tindakan Korektif dan Pemeriksaan Fakta)</strong></p>
+<p>Melakukan <strong>corrective action</strong> (tindakan korektif) untuk meluruskan informasi yang salah adalah langkah penting. Ini bisa dilakukan dengan <strong>utilizing fact-checking platforms</strong> (memanfaatkan platform pemeriksa fakta) yang berfokus pada verifikasi informasi yang beredar, bekerja sama dengan media atau lembaga terpercaya untuk membantah rumor tersebut. Selain itu, <strong>issuing public statements</strong> (mengeluarkan pernyataan publik) yang tegas dan jelas, disertai dengan bukti konkret, dapat membantu memperkuat kredibilitas dan kepercayaan publik.</p></li>
+<li><p><strong>Leverage Emotional Appeals (Memanfaatkan Pendekatan Emosional)</strong></p>
+<p>Menggunakan <strong>emotional appeals</strong> (pendekatan emosional) untuk menghubungkan dengan audiens pada tingkat yang lebih dalam dapat sangat efektif. Membagikan <strong>personal stories and vulnerability</strong> (cerita pribadi dan kerentanan) yang menunjukkan bagaimana isu ini mempengaruhi secara pribadi dan profesional dapat membangun empati yang lebih kuat dengan audiens. Juga, <strong>highlighting the harm of baseless rumors</strong> (menyoroti kerugian dari rumor yang tidak berdasar) dapat membuat publik lebih sadar akan dampak negatif dari penyebaran informasi palsu, tidak hanya pada individu yang menjadi target, tetapi juga pada tatanan sosial secara keseluruhan.</p></li>
+</ol>
+<p>Dalam menghadapi isu seperti “bau ketek” yang ditujukan kepada Erina Gudono, pendekatan social engineering yang lebih kreatif dan adaptif sangat diperlukan. Menggunakan humor, mengalihkan perhatian, membangun empati, dan meluruskan fakta bisa menjadi langkah efektif untuk meredam isu negatif dan membangun kembali citra yang positif</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Social Engineering,Politik" data-listing-date-sort="1772902800000" data-listing-file-modified-sort="1724728307510" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1322">
-<div class="thumbnail">
-<p><a href="./blog/bau-ketek-dan-social-engineering.html" class="no-external"></a></p><a href="./blog/bau-ketek-dan-social-engineering.html" class="no-external">
-<p class="card-img-top"><img src="blog/images/clipboard-3319025418.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./blog/bau-ketek-dan-social-engineering.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/bau-ketek-dan-social-engineering.html" class="no-external">Bau Ketek dan Social Engineering</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/bau-ketek-dan-social-engineering.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Social Engineering'); return false;">
-Social Engineering
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Politik'); return false;">
-Politik
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/bau-ketek-dan-social-engineering.html" class="no-external">Isu tentang Erina Gudono, menantu Presiden Joko Widodo, yang diisukan “bau ketek” mungkin tampak sepele dan menggelikan. Namun, di balik isu yang tampaknya remeh ini…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/bau-ketek-dan-social-engineering.html" class="no-external">
-<div class="listing-date">
-Mar 8, 2026
-</div>
-<div class="listing-author">
-Muhammad Apriandito
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Social Engineering,Politik" data-listing-date-sort="1772902800000" data-listing-file-modified-sort="1724730433291" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="872">
-<div class="thumbnail">
-<p><a href="./blog/resonansi-sosial-positif.html" class="no-external"></a></p><a href="./blog/resonansi-sosial-positif.html" class="no-external">
-<p class="card-img-top"><img src="blog/images/clipboard-854009580.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./blog/resonansi-sosial-positif.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/resonansi-sosial-positif.html" class="no-external">Resonansi Sosial Positif</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/resonansi-sosial-positif.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Social Engineering'); return false;">
-Social Engineering
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Politik'); return false;">
-Politik
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/resonansi-sosial-positif.html" class="no-external">Anda melempar batu ke kolam yang tenang. Riak air yang terbentuk akan menyebar ke seluruh permukaan kolam. Begitu pula, tindakan positif kita dapat menyebar dalam jaringan…<strong></strong><strong></strong></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/resonansi-sosial-positif.html" class="no-external">
-<div class="listing-date">
-Mar 8, 2026
-</div>
-<div class="listing-author">
-Muhammad Apriandito
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Social Engineering" data-listing-date-sort="1770483600000" data-listing-file-modified-sort="1724728306026" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="842">
-<div class="thumbnail">
-<p><a href="./blog/mengenal-social-engineering.html" class="no-external"></a></p><a href="./blog/mengenal-social-engineering.html" class="no-external">
-<p class="card-img-top"><img src="blog/images/clipboard-2272977569.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./blog/mengenal-social-engineering.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/mengenal-social-engineering.html" class="no-external">Social Engineering: Seni Memanipulasi Perilaku Manusia</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/mengenal-social-engineering.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Social Engineering'); return false;">
-Social Engineering
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/mengenal-social-engineering.html" class="no-external">Anda sedang berjalan di trotoar kota yang ramai. Tiba-tiba, seorang pria berjas rapi menghampiri Anda dengan wajah panik. Dia mengaku sebagai eksekutif bank yang kehilangan…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/mengenal-social-engineering.html" class="no-external">
-<div class="listing-date">
-Feb 8, 2026
-</div>
-<div class="listing-author">
-Muhammad Apriandito
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="Opini Personal,R" data-listing-date-sort="1701709200000" data-listing-file-modified-sort="1724728676296" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="290">
-<div class="thumbnail">
-<p><a href="./blog/how-to-love-r.html" class="no-external"></a></p><a href="./blog/how-to-love-r.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./blog/how-to-love-r.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/how-to-love-r.html" class="no-external">How to Love R as It Is?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/how-to-love-r.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Opini Personal'); return false;">
-Opini Personal
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/how-to-love-r.html" class="no-external">Saya telah merenungkan untuk menulis buku tentang hal ini, dan mungkin saya akan benar-benar melakukannya. Akhir-akhir ini semakin sulit bagi saya untuk tetap setia pada R.…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/how-to-love-r.html" class="no-external">
-<div class="listing-date">
-Dec 5, 2023
-</div>
-<div class="listing-author">
-Muhammad Apriandito
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="Opini Personal,Random" data-listing-date-sort="1691082000000" data-listing-file-modified-sort="1724728694015" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="268">
-<div class="thumbnail">
-<p><a href="./blog/random-1.html" class="no-external"></a></p><a href="./blog/random-1.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./blog/random-1.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/random-1.html" class="no-external">Random Thoughts #1</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/random-1.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Opini Personal'); return false;">
-Opini Personal
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Random'); return false;">
-Random
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/random-1.html" class="no-external">Ini pukul 23.17 tengah malam, seharusnya saya istirahat tidur atau setidaknya mengerjakan pekerjaan yang menumpuk. Namun entah mengapa malam ini saya sama sekali tidak…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/random-1.html" class="no-external">
-<div class="listing-date">
-Aug 4, 2023
-</div>
-<div class="listing-author">
-Muhammad Apriandito
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="Opini Personal,R" data-listing-date-sort="1659459600000" data-listing-file-modified-sort="1724728685722" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="220">
-<div class="thumbnail">
-<p><a href="./blog/r-studio-posit.html" class="no-external"></a></p><a href="./blog/r-studio-posit.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./blog/r-studio-posit.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/r-studio-posit.html" class="no-external">RStudio berubah nama menjadi Posit. Seperti Apa Kedepannya?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/r-studio-posit.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Opini Personal'); return false;">
-Opini Personal
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/r-studio-posit.html" class="no-external">Di <code>rstudio::conf(2022)</code> kemarin, terdapat pengumuman bahwa RStudio akan berubah nama menjadi Posit. Yup <strong>POSIT!</strong>. Awal-awal ini agak terdengar aneh untuk saya.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/r-studio-posit.html" class="no-external">
-<div class="listing-date">
-Aug 3, 2022
-</div>
-<div class="listing-author">
-Muhammad Apriandito
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

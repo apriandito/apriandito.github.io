@@ -3,7 +3,7 @@ title: "RStudio berubah nama menjadi Posit. Seperti Apa Kedepannya?"
 author: "Muhammad Apriandito"
 date: "8/03/2022"
 categories:
-  - Personal Opinion
+  - Opini Personal
   - R
 ---
 
