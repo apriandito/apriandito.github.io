@@ -18,7 +18,7 @@ website:
     right: "© Copyright Muhammad Apriandito | 2024"        
 format:
   html:
-    theme: zephyr
+    theme: default
     css: www/styles.css
     toc: true
 execute:

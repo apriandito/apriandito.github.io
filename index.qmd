@@ -1,8 +1,8 @@
 ---
-title: "Hi Saya Dito!"
+title: "Bonjour à tous! 👋"
 about:
-  template: jolla
-  image: www/profile.jpg
+  template: trestles
+  image: www/profile.jpeg
   links:
     - icon: twitter
       text: Twitter
@@ -13,6 +13,21 @@ about:
     - icon: linkedin
       text: Linkedin
       href: https://linkedin.com/in/apriandito
+    - icon: youtube
+      text: youtube
+      href: https://www.youtube.com/@muhammadapriandito5489
 ---
 
-Direktur [SocialX](https://socialx.id/) dan Chief [Extraordianry](https://extraordinary.co.id/) Officer. Masih bagian dari [SBM-ITB.](https://www.sbm.itb.ac.id/id/)
+#### **Perkenalkan, Saya Dito** - bapak satu anak yang hobi 'nyambi': kadang mengajar sebagai dosen 👨‍🏫, kadang ngulik bisnis 💼, kadang juga jadi stand up comedian 🎭.
+
+------------------------------------------------------------------------
+
+Selamat datang di website saya! Anggap saja website ini seperti perpustakaan digital pribadi saya yang pintunya selalu terbuka untuk siapa saja 🚪✨. Di sini, saya bakal berbagi berbagai hal: mulai dari pemikiran random 🤔, tutorial yang (semoga) bikin hidup lebih gampang 💡, sampai materi kuliah yang saya rasa sayang kalau cuma disimpan sendiri 📝.
+
+::: callout-note
+Oh iya, dalam menulis di sini, saya bakal dibantu sama AI. **Why not?** Ada teknologi ya mari kita manfaatkan
+:::
+
+------------------------------------------------------------------------
+
+Bonne lecture! ✨ *(Selamat membaca!)*
